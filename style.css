@@ -1,0 +1,74 @@
+body {
+    background-color: #f4f7f6; 
+}
+
+.hero-body {
+    background: linear-gradient(45deg, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+
+.hero-content {
+    max-width: 650px;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+}
+
+
+.auth-card {
+    width: 100%;
+    max-width: 420px;
+    background: rgba(0, 0, 0, 0.25);
+    padding: 2.5rem;
+    border-radius: 20px;
+    backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+
+.auth-card .form-control {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    font-weight: 500;
+}
+
+.auth-card .form-control:focus {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: white;
+    box-shadow: none;
+}
+
+.auth-card .form-control::placeholder { 
+    color: rgba(255, 255, 255, 0.6);
+    opacity: 1; 
+}
+
+
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    border: none;
+    transition: all 0.3s ease-in-out; 
+}
+
+.product-card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 12px 24px rgba(0,0,0,0.1); 
+}
+
+.card-header {
+    padding-top: 1.25rem;
+    padding-bottom: 0.5rem;
+}
+
+
+.placeholder {
+    background-color: #e9ecef; 
+}
+
+.placeholder-glow .placeholder {
+    animation: placeholder-glow 2s ease-in-out infinite;
+}
